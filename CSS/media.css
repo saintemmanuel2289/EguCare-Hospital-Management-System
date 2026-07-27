@@ -1,0 +1,59 @@
+.logo{
+    width: 80px;
+    height: auto;
+    margin: 10px;
+}
+.heroimage{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 20px;
+    border: 1px solid tomato;
+}
+.depimage{
+    width: 100%;
+    height: auto;
+}
+.ceoimage{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.staff{
+    width: 70%;
+    margin: 10px auto;
+    display: block;
+    border-radius: 15px;
+    border: 1px solid tomato;
+}
+.patient{
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid tomato;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+th, td{
+    border: 1px solid darkblue;
+    padding: 10px;
+    text-align: left;
+}
+
+th{
+    background-color: tomato;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover{
+    background-color: #ddd;
+}

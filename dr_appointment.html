@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Appointment | Egucare Hospital</title>
+    <link rel="icon" type="image/jpeg" href="/IMAGE/LOGO.webp">
+    <link rel="stylesheet" href="/CSS/footer.css">
+    <link rel="stylesheet" href="/CSS/form.css">
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/media.css">
+    <link rel="stylesheet" href="/CSS/responsive.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <header class="homepage">
+        <img src="/IMAGE/LOGO.webp" class="logo" alt ="Our Logo">
+        <h1>Doctor & Appointment Management</h1>
+    </header>
+    <nav class="homenav">
+        <a href="index.html">Home</a>
+        <a href="about.html" >About</a>
+    </nav><br>
+    <main>
+        <section class="doctor-section">
+
+        <h2>Doctor Information</h2>
+
+        <form class="doctor-form">
+
+            <div>
+                <label>Doctor ID</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label>Full Name</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label>Department</label>
+
+                <select>
+                    <option>Select Department</option>
+                    <option>Cardiology</option>
+                    <option>Neurology</option>
+                    <option>Paediatrics</option>
+                    <option>Orthopaedics</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Specialization</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label>Phone Number</label>
+                <input type="tel">
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email">
+            </div>
+
+            <div>
+                <label>Availability</label>
+
+                <select>
+                    <option>Available</option>
+                    <option>Unavailable</option>
+                </select>
+            </div>
+
+        </form>
+
+        <button>Add Doctor</button>
+
+    </section>
+    <section>
+
+        <h2>Doctor Records</h2>
+
+        <table>
+
+            <tr>
+                <th>Doctor ID</th>
+                <th>Doctor Name</th>
+                <th>Department</th>
+                <th>Availability</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>D001</td>
+                <td>Dr. John Smith</td>
+                <td>Cardiology</td>
+                <td>Available</td>
+                <td>Active</td>
+            </tr>
+
+            <tr>
+                <td>D002</td>
+                <td>Dr. Grace Johnson</td>
+                <td>Neurology</td>
+                <td>Unavailable</td>
+                <td>On Leave</td>
+            </tr>
+
+        </table>
+
+    </section>
+    <section class="appointment-section">
+
+        <h2>Appointment Management</h2>
+
+        <form class="appointment-form">
+
+            <div>
+                <label>Appointment ID</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label>Patient Name</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label>Doctor</label>
+
+                <select>
+                    <option>Select Doctor</option>
+                    <option>Dr. John Smith</option>
+                    <option>Dr. Grace Johnson</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Date</label>
+                <input type="date">
+            </div>
+
+            <div>
+                <label>Time</label>
+                <input type="time">
+            </div>
+
+            <div>
+                <label>Status</label>
+
+                <select>
+                    <option>Pending</option>
+                    <option>Approved</option>
+                    <option>Cancelled</option>
+                </select>
+            </div>
+
+        </form>
+
+        <div class="buttons">
+
+            <button>Schedule Appointment</button>
+
+            <button>Reschedule</button>
+
+            <button>Cancel</button>
+
+            <button>Approve</button>
+
+        </div>
+
+    </section>
+
+    </main>
+    <footer class="footer">
+        <h4>EguCare Hospital</h4>
+        <p>42 Egurefa Cresent, Cable Point<br>Asaba Delta State, Nigeria<br>Postcode: <b>320213</b></p>
+        <p>08063793218</p>
+        <p>samsonegurefa77@gmail.com</p>
+        <p>&copy; 2026 EguCare Hospital. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
